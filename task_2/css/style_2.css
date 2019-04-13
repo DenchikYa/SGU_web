@@ -1,0 +1,29 @@
+body {
+    background: #333;
+}
+div {
+    background: repeating-linear-gradient(transparent,transparent 55px, #333 55px, #333 60px),linear-gradient(to bottom, #ffd059, #ff8c00);
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    vertical-align: bottom;
+}
+.column_1 {
+    height: 230px;
+}
+.column_2 {
+    height: 170px;
+}
+.column_3 {
+    height: 350px;
+}
+.column_4 {
+    height: 470px;
+}
+.column_5 {
+    height: 230px;
+}
+.column_6 {
+    height: 170px;
+}
