@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Taskl 3</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="field">
+            <h4>available</h4>
+            <select name="available" id="list1" multiple>
+            </select>
+        </div>
+
+        <div class="list-button">
+            <button onclick="Group1.moveElementsTo('selected')">
+                >
+            </button>
+
+            <button onclick="Group1.moveElementsTo('available')">
+                &#60;
+            </button>
+
+            <button onclick="Group1.moveAllTo('available')">
+                &#60;&#60;
+            </button>
+
+            <button onclick="Group1.moveAllTo('selected')">
+                >>
+            </button>
+        </div>
+
+
+        <div class="field">
+            <h4>selected</h4>
+            <select name="selected" id="list2" multiple>
+            </select>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

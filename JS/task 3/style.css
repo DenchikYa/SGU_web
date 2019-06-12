@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    width: 150px;
+    height: 100px;
+}
+
+.list-button {
+    margin: 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
